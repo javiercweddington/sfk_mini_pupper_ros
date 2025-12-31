@@ -56,7 +56,7 @@ def generate_launch_description():
     world_init_z = LaunchConfiguration('world_init_z')
     world_init_z_launch_arg = DeclareLaunchArgument(
         name='world_init_z',
-        default_value='0.066'
+        default_value='0.2'
     )
 
     world_init_heading = LaunchConfiguration('world_init_heading')
