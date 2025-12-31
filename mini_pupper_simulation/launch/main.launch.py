@@ -56,7 +56,7 @@ def generate_launch_description():
     world_init_z = LaunchConfiguration('world_init_z')
     world_init_z_launch_arg = DeclareLaunchArgument(
         name='world_init_z',
-        default_value='0.2'
+        default_value='0.08'
     )
 
     world_init_heading = LaunchConfiguration('world_init_heading')
@@ -95,7 +95,20 @@ def generate_launch_description():
             '-z', world_init_z,
             '-R', '0',
             '-P', '0',
-            '-Y', world_init_heading
+            '-Y', world_init_heading,
+            # Initialize joints to standing position
+            '-J', 'base_lf1', '0.0',
+            '-J', 'lf1_lf2', '0.65',
+            '-J', 'lf2_lf3', '-1.3',
+            '-J', 'base_rf1', '0.0',
+            '-J', 'rf1_rf2', '0.65',
+            '-J', 'rf2_rf3', '-1.3',
+            '-J', 'base_lb1', '0.0',
+            '-J', 'lb1_lb2', '0.65',
+            '-J', 'lb2_lb3', '-1.3',
+            '-J', 'base_rb1', '0.0',
+            '-J', 'rb1_rb2', '0.65',
+            '-J', 'rb2_rb3', '-1.3',
         ],
         output='screen'
     )
