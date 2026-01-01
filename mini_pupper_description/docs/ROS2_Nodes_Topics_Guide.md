@@ -395,8 +395,6 @@ ros2 topic hz /joint_states
 
 ### Activity 3: Predict and Verify
 
-**Challenge students to predict:**
-
 1. **"What happens if we close the joint_state_publisher_gui?"**
    - Prediction: No more joint_states messages
    - Verify: Close GUI, watch Terminal 3 stop updating
@@ -592,13 +590,13 @@ Opens a PDF showing how all the robot parts are connected geometrically.
 
 Students should now be able to:
 
-✅ **Identify nodes and topics** in rqt_graph
-✅ **Trace data flow** from publisher to subscriber
-✅ **Monitor live topic data** using `ros2 topic echo`
-✅ **Observe real-time changes** as robot joints move
-✅ **Understand the publish-subscribe pattern**
-✅ **Use ros2 CLI tools** to inspect the system
-✅ **Explain why ROS2 uses topics** for communication
+**Identify nodes and topics** in rqt_graph
+**Trace data flow** from publisher to subscriber
+**Monitor live topic data** using `ros2 topic echo`
+**Observe real-time changes** as robot joints move
+**Understand the publish-subscribe pattern**
+**Use ros2 CLI tools** to inspect the system
+**Explain why ROS2 uses topics** for communication
 
 ---
 
