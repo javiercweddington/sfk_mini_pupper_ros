@@ -26,6 +26,10 @@ install(PROGRAMS
   RENAME stanford_joint_trajectory_to_states
 )
 
+install(PROGRAMS
+  src/pupper_dance_node.py
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
