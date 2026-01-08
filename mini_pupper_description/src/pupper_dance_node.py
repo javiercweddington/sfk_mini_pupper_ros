@@ -20,7 +20,6 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import JointState
 import math
-import time
 
 
 class PupperDanceNode(Node):
@@ -46,11 +45,10 @@ class PupperDanceNode(Node):
         ]
 
         # Joint limits from URDF (for safety)
-        # [lower, upper] for each joint
         self.joint_limits = [
-            [-0.550, 0.425],   # base_lf1 (hip ab/ad)
-            [0.55, 2.40],      # lf1_lf2 (hip flex/extend)
-            [-2.18, -0.22],    # lf2_lf3 (knee)
+            [-0.550, 0.425],   # base_lf1
+            [0.55, 2.40],      # lf1_lf2
+            [-2.18, -0.22],    # lf2_lf3
             [-0.425, 0.550],   # base_rf1
             [0.55, 2.40],      # rf1_rf2
             [-2.18, -0.22],    # rf2_rf3
@@ -202,15 +200,29 @@ class PupperDanceNode(Node):
         return positions
 
     def dance_callback(self):
-        """Main callback that cycles through different dance moves."""
+        """
+        Main callback that cycles through different dance moves.
+
+        STUDENT TODO: Add the remaining dance moves after 'wave' in your chosen order!
+
+        Currently, only the 'wave' dance is implemented. Your task is to:
+        1. Add elif conditions for the other dances: bounce, twist, trot, sit
+        2. Arrange them in the order YOU want them to appear
+        3. Update the dances list to match your chosen order
+
+        Use the 'wave' implementation below as an example!
+        """
         current_time = self.get_clock().now()
         elapsed = (current_time - self.start_time).nanoseconds / 1e9  # Convert to seconds
 
         # Cycle through dances every 10 seconds
         dance_cycle_duration = 10.0
-        dance_index = int(elapsed / dance_cycle_duration) % 5
 
-        dances = ['wave', 'bounce', 'twist', 'trot', 'sit']
+        # TODO: Update this list with all 5 dances in YOUR preferred order!
+        # Currently only 'wave' is in the list. Add: 'bounce', 'twist', 'trot', 'sit'
+        dances = ['wave']  # STUDENT TODO: Add the other 4 dances here!
+
+        dance_index = int(elapsed / dance_cycle_duration) % len(dances)
         new_dance = dances[dance_index]
 
         # Log when dance changes
@@ -222,16 +234,12 @@ class PupperDanceNode(Node):
         t = elapsed % dance_cycle_duration
 
         # Execute the current dance
+        # This is an EXAMPLE for 'wave' - use this as a template for adding the others!
         if self.current_dance == 'wave':
             positions = self.wave_dance(t)
-        elif self.current_dance == 'bounce':
-            positions = self.bounce_dance(t)
-        elif self.current_dance == 'twist':
-            positions = self.twist_dance(t)
-        elif self.current_dance == 'trot':
-            positions = self.trot_dance(t)
-        elif self.current_dance == 'sit':
-            positions = self.sit_dance(t)
+        # TODO: Add elif conditions for the other dances here!
+        # elif self.current_dance == 'your_chosen_dance':
+        #     positions = self.your_chosen_dance_function(t)
         else:
             positions = self.standing_pose
 
