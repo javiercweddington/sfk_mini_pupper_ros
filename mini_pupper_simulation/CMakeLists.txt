@@ -6,7 +6,7 @@ find_package(gazebo_ros2_control REQUIRED)
 find_package(gazebo_ros REQUIRED)
 
 install(
-  DIRECTORY config launch worlds
+  DIRECTORY config launch worlds models
   DESTINATION share/${PROJECT_NAME}
 )
 
