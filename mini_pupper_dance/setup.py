@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 from glob import glob
 import os
 
@@ -7,10 +7,7 @@ package_name = 'mini_pupper_dance'
 setup(
     name=package_name,
     version='0.0.1',
-    packages=['mini_pupper_dance', 'mini_pupper_dance.new_dance'],
-    package_dir={
-        'mini_pupper_dance': 'mini_pupper_dance'
-    },
+    packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages', ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
@@ -22,7 +19,6 @@ setup(
     maintainer_email='mangdang@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'service = mini_pupper_dance.dance_server:main',

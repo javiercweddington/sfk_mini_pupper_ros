@@ -31,25 +31,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/base_link_black.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/base_link.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque252525"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/base_link.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/base_link.stl" scale="1 1 1"/>
       </geometry>
     </collision>
-  </link>
-
-
-  <link name="display_link">
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/displayscreen.dae" scale="1 1 1"/>
-      </geometry>
-    </visual>
   </link>
 
   <link name="base_inertia">
@@ -69,14 +60,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lf1_black.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lf1.stl" scale="1 1 1"/>
       </geometry>
-      
+      <material name="opaque666666"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lf1.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lf1.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -90,13 +81,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lf2.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lf2.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque636363"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lf2.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lf2.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -110,13 +102,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lf3.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lf3.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque252525"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lf3.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lf3.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -130,14 +123,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rf1.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rf1.stl" scale="1 1 1"/>
       </geometry>
-      
+      <material name="opaque666666"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rf1.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rf1.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -151,13 +144,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rf2.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rf2.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque636363"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rf2.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rf2.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -171,13 +165,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rf3_black.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rf3.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque252525"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rf3.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rf3.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -191,14 +186,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rb1.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rb1.stl" scale="1 1 1"/>
       </geometry>
-      
+      <material name="opaque666666"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rb1.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rb1.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -212,13 +207,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rb2.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rb2.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque636363"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rb2.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rb2.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -232,13 +228,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rb3.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rb3.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque252525"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rb3.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rb3.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -252,14 +249,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lb1.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lb1.stl" scale="1 1 1"/>
       </geometry>
-      
+      <material name="opaque666666"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lb1.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lb1.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -273,13 +270,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lb2.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lb2.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque636363"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lb2.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lb2.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -293,13 +291,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lb3.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lb3.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque252525"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lb3.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lb3.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -313,13 +312,14 @@
     <visual>
       <origin xyz="-0.089299 0 0.015543" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/Body_front.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/Body_front.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque2552210"/>
     </visual>
     <collision>
       <origin xyz="-0.089299 0 0.015543" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/Body_front.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/Body_front.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -333,13 +333,14 @@
     <visual>
       <origin xyz="0.087701 0.023505 -0.026457" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/Board_PCB.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/Board_PCB.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque646464"/>
     </visual>
     <collision>
       <origin xyz="0.087701 0.023505 -0.026457" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/Board_PCB.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/Board_PCB.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -353,13 +354,14 @@
     <visual>
       <origin xyz="-0.061334 3.3e-05 -0.026457" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/Board_connectors_1.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/Board_connectors_1.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque2491590"/>
     </visual>
     <collision>
       <origin xyz="-0.061334 3.3e-05 -0.026457" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/Board_connectors_1.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/Board_connectors_1.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -373,13 +375,14 @@
     <visual>
       <origin xyz="0.045346 5e-06 -0.026457" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/Board_connectors_2.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/Board_connectors_2.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque255255255"/>
     </visual>
     <collision>
       <origin xyz="0.045346 5e-06 -0.026457" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/Board_connectors_2.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/Board_connectors_2.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -402,14 +405,17 @@
       <origin xyz="0 0 0" rpy="0 0 -1.57"/>
       <geometry>
         <mesh
-          filename="package://mini_pupper_description/meshes/mini_pupper_2/lidar.dae" />
+          filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lidar.stl" />
       </geometry>
+      <material name="">
+        <color rgba="0.2 0.2 0.2 1" />
+      </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 -1.57" />
       <geometry>
         <mesh
-          filename="package://mini_pupper_description/meshes/mini_pupper_2/lidar.stl" />
+          filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lidar.stl" />
       </geometry>
     </collision>
   </link>
@@ -422,14 +428,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rffoot.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rffoot.stl" scale="1 1 1"/>
       </geometry>
-      
+      <material name="opaque666666"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rffoot.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rffoot.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -443,14 +449,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rbfoot.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rbfoot.stl" scale="1 1 1"/>
       </geometry>
-      
+      <material name="opaque666666"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rbfoot.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rbfoot.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -464,14 +470,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lbfoot.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lbfoot.stl" scale="1 1 1"/>
       </geometry>
-      
+      <material name="opaque666666"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lbfoot.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lbfoot.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -485,14 +491,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lffoot.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lffoot.stl" scale="1 1 1"/>
       </geometry>
-      
+      <material name="opaque666666"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lffoot.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lffoot.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -506,13 +512,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lpf1.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lpf1.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque2552210"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lpf1.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lpf1.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -526,13 +533,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lpb1.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lpb1.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque2552210"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lpb1.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lpb1.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -546,13 +554,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rpf1.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rpf1.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque2552210"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rpf1.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rpf1.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -566,13 +575,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rpb1.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rpb1.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque2552210"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rpb1.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rpb1.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -586,13 +596,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lpf2.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lpf2.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque2552210"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lpf2.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lpf2.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -606,13 +617,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lpb2.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lpb2.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque2552210"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/lpb2.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/lpb2.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -626,13 +638,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rpf2.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rpf2.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque2552210"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rpf2.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rpf2.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -646,13 +659,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rpb2.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rpb2.stl" scale="1 1 1"/>
       </geometry>
+      <material name="opaque2552210"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/rpb2.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/rpb2.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -667,14 +681,14 @@
     <visual>
       <origin xyz="0.002701 0.030005 0.016293" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/Shell_Side.dae" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/Shell_Side.stl" scale="1 1 1"/>
       </geometry>
-      
+      <material name="opaque2552210"/>
     </visual>
     <collision>
       <origin xyz="0.002701 0.030005 0.016293" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://mini_pupper_description/meshes/mini_pupper_2/Shell_Side.stl" scale="1 1 1"/>
+        <mesh filename="file://$(find mini_pupper_description)/meshes/mini_pupper_2/Shell_Side.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -684,13 +698,6 @@
     <child link="base_inertia"/>
     <origin rpy="0 0 0" xyz="0 0 0"/>
   </joint>
-
-  <joint name="base_link_to_display_link" type="fixed">
-    <parent link="base_link"/>
-    <child link="display_link"/>
-    <origin rpy="0 0 0" xyz="0 0 0"/>
-  </joint>
-  
 
   <joint name="base_lf1" type="revolute">
     <origin xyz="0.05 0.0235 0.0" rpy="0 0 0"/>
@@ -960,7 +967,25 @@
       <state_interface name="velocity"/>
     </joint>
   </ros2_control>
-  
+  <!-- coloring Gazebo model -->
+  <gazebo reference="base_link">
+    <material>Gazebo/FlatBlack</material>
+  </gazebo>
+  <gazebo reference="Board_PCB">
+    <material>Gazebo/FlatBlack</material>
+  </gazebo>
+  <gazebo reference="Body_front">
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+  <gazebo reference="Shell_Side">
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+  <gazebo reference="Board_connectors_1">
+    <material>Gazebo/Orange</material>
+  </gazebo>
+  <gazebo reference="Board_connectors_2">
+    <material>Gazebo/White</material>
+  </gazebo>
   
   <gazebo reference="lf1">
     <kp>100000.0</kp>
@@ -969,8 +994,11 @@
     <mu2>0.8</mu2>
     <maxVel>0.0</maxVel>
     <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
   </gazebo>
-
+  <gazebo reference="lpf1">
+    <material>Gazebo/Yellow</material>
+  </gazebo>
   <gazebo reference="lf2">
     <kp>100000.0</kp>
     <kd>1.0</kd>
@@ -978,6 +1006,10 @@
     <mu2>0.8</mu2>
     <maxVel>0.0</maxVel>
     <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
+  </gazebo>
+  <gazebo reference="lpf2">
+    <material>Gazebo/Yellow</material>
   </gazebo>
   <gazebo reference="lf3">
     <kp>100000.0</kp>
@@ -986,6 +1018,7 @@
     <mu2>0.8</mu2>
     <maxVel>0.0</maxVel>
     <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
   </gazebo>
   <gazebo reference="lffoot">
     <kp>100000.0</kp>
@@ -994,6 +1027,7 @@
     <mu2>1.5</mu2>
     <maxVel>0.0</maxVel>
     <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
   </gazebo>
   <gazebo reference="rf1">
     <kp>100000.0</kp>
@@ -1002,6 +1036,10 @@
     <mu2>0.8</mu2>
     <maxVel>0.0</maxVel>
     <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
+  </gazebo>
+  <gazebo reference="rpf1">
+    <material>Gazebo/Yellow</material>
   </gazebo>
   <gazebo reference="rf2">
     <kp>100000.0</kp>
@@ -1010,6 +1048,10 @@
     <mu2>0.8</mu2>
     <maxVel>0.0</maxVel>
     <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
+  </gazebo>
+  <gazebo reference="rpf2">
+    <material>Gazebo/Yellow</material>
   </gazebo>
   <gazebo reference="rf3">
     <kp>100000.0</kp>
@@ -1018,6 +1060,7 @@
     <mu2>0.8</mu2>
     <maxVel>0.0</maxVel>
     <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
   </gazebo>
   <gazebo reference="rffoot">
     <kp>100000.0</kp>
@@ -1026,6 +1069,7 @@
     <mu2>1.5</mu2>
     <maxVel>0.0</maxVel>
     <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
   </gazebo>
   <gazebo reference="lb1">
     <kp>100000.0</kp>
@@ -1034,6 +1078,10 @@
     <mu2>0.8</mu2>
     <maxVel>0.0</maxVel>
     <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
+  </gazebo>
+  <gazebo reference="lpb1">
+    <material>Gazebo/Yellow</material>
   </gazebo>
   <gazebo reference="lb2">
     <kp>100000.0</kp>
@@ -1042,6 +1090,10 @@
     <mu2>0.8</mu2>
     <maxVel>0.0</maxVel>
     <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
+  </gazebo>
+  <gazebo reference="lpb2">
+    <material>Gazebo/Yellow</material>
   </gazebo>
   <gazebo reference="lb3">
     <kp>100000.0</kp>
@@ -1050,6 +1102,7 @@
     <mu2>0.8</mu2>
     <maxVel>0.0</maxVel>
     <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
   </gazebo>
   <gazebo reference="lbfoot">
     <kp>100000.0</kp>
@@ -1058,6 +1111,7 @@
     <mu2>1.5</mu2>
     <maxVel>0.0</maxVel>
     <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
   </gazebo>
   <gazebo reference="rb1">
     <kp>100000.0</kp>
@@ -1066,6 +1120,10 @@
     <mu2>0.8</mu2>
     <maxVel>0.0</maxVel>
     <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
+  </gazebo>
+  <gazebo reference="rpb1">
+    <material>Gazebo/Yellow</material>
   </gazebo>
   <gazebo reference="rb2">
     <kp>100000.0</kp>
@@ -1074,6 +1132,10 @@
     <mu2>0.8</mu2>
     <maxVel>0.0</maxVel>
     <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
+  </gazebo>
+  <gazebo reference="rpb2">
+    <material>Gazebo/Yellow</material>
   </gazebo>
   <gazebo reference="rb3">
     <kp>100000.0</kp>
@@ -1082,6 +1144,7 @@
     <mu2>0.8</mu2>
     <maxVel>0.0</maxVel>
     <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
   </gazebo>
   <gazebo reference="rbfoot">
     <kp>100000.0</kp>
@@ -1090,14 +1153,16 @@
     <mu2>1.5</mu2>
     <maxVel>0.0</maxVel>
     <minDepth>0.001</minDepth>
+    <material>Gazebo/FlatBlack</material>
   </gazebo>
 
   <gazebo reference="lidar_link">
+    <material>Gazebo/FlatBlack</material>
     <sensor type="ray" name="lidar">
       <always_on>true</always_on>
       <update_rate>30</update_rate>
       <pose>0 0 0 0 0 0</pose>
-      <visualize>false</visualize>
+      <visualize>true</visualize>
       <ray>
         <scan>
           <horizontal>
@@ -1182,6 +1247,10 @@
           <size>0.02 0.02 0.02</size>
         </box>
       </geometry>
+      <material>
+        <ambient>0 0 1 1</ambient>
+        <diffuse>0 0 1 1</diffuse>
+      </material>
     </visual>
   </link>
 
